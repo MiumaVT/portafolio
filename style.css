@@ -1,0 +1,177 @@
+body{
+    background-color: #E9ECF8;
+}
+
+.logo-alura{
+    margin: 20px 0 20px 0;
+}
+
+.titulo{
+    display: inline-block;
+    position: absolute;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 20px 0 0 325px;
+    color: #0A3871;
+}
+
+.subtitulo{
+    position: absolute;
+    font-size: 35px;
+    font-weight: bold;
+    margin: -28px 0 0 444px;
+    color: #0A3871;
+}
+
+textarea{
+    position: absolute;
+    margin: 25px 0 0 190px;
+    width: 1075px;
+    height: 600px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #0A3871;
+    border: 2px solid #757fb2;
+    background-color: #E9ECF8;
+}
+
+.encriptador{
+    border: 1px solid #FFFFFF;
+    /* caja-ubicacion */
+    position: absolute;
+    width: 400px;
+    height: 860px;
+    left: 1450px;
+    bottom: 50px;
+    border-radius: 32px;
+    /* color-fondo */
+    background-color: #FFFFFF;
+    /* difuminado y fondo */
+    box-shadow: 0px 24px 32px -8px;
+    color: rgba(0,0,0,0.8);
+}
+
+.img-persona{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 34px;
+    top: 200px;
+}
+
+.encriptador-texto{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 34px;
+    top: 525px;
+}
+
+.mensaje{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.texto{
+    text-align: center;
+    font-size: 15px;
+    margin: 20px;
+}
+
+.encriptador + p{
+    position: absolute;
+    font-size: 14px;
+    color: #495057;
+    top: 765px;
+    left: 370px;
+}
+
+.signo-exclamacion{
+    position: absolute;
+    font-size: 14px;
+    color: #495057;
+    top: 764px;
+    left: 350px;
+}
+
+.boton-encriptar{
+    position: absolute;
+    font-family:sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 328px;
+    height: 67px;
+    top: 785px;
+    left: 340px;
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.boton-desencriptar{
+    position: absolute;
+    font-family:sans-serif;
+    font-size: 16px;
+    color: #0A3871;
+    width: 328px;
+    height: 67px;
+    top: 785px;
+    left: 740px;
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+#resultado{
+    color: #0A3871;
+    font-size: 15px;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    width: 370px;
+    height: 200px;
+    left: 1273px;
+    bottom: 100px;
+    background-color: #FFFFFF;
+}
+
+.boton-copiar{
+    position: absolute;
+    font-family:sans-serif;
+    font-size: 16px;
+    color: #0A3871;
+    width: 328px;
+    height: 67px;
+    top: 785px;
+    left: 1485px;
+    background-color: #FFFFFF;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+.copyright{
+    position: absolute;
+    bottom: 50px;
+    left: 300px;
+}
+
+.linkedin{
+    position: absolute;
+    width: 50px;
+    bottom: 35px;
+    left: 970px;
+
+}
+
+.github{
+    position: absolute;
+    width: 50px;
+    bottom: 35px;
+    left: 1030px;
+}

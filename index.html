@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Encriptador de texto</title>
+    <link rel="shortcut icon" href="imagenes-proyecto/mensaje-encriptado.png">
+</head>
+
+<body>
+
+<header>
+    <img class="logo-alura" src="imagenes-proyecto/Logo.png" alt="Logo-Alura">    
+    <h1 class="titulo">Bienvenido al Encriptador de texto</h1> 
+    <h2 class="subtitulo">Deja un mensaje secreto y mandalo</h2>    
+</header>
+
+<main>
+
+    <textarea name="textarea" id="textarea" cols="30" rows="10" required placeholder="Inserte el texto que desea encriptar"></textarea> 
+
+    <div class="encriptador">
+        <img class="img-persona" src="imagenes-proyecto/Muñeco.png" alt="Persona investigando.">
+
+        <div class="encriptador-texto">
+            <p class="mensaje">Ningún mensaje fue encontrado.</p>
+        </div>
+
+    </div>
+
+    <p> Solo letras minúsculas y sin acentos</p>
+    <img src="imagenes-proyecto/Group.png" alt="!" class="signo-exclamacion">
+
+    <div>
+        <button class="boton-encriptar" onclick="encriptar()">Encriptar</button>
+        <button class="boton-desencriptar" onclick="desencriptar()">Desencriptar</button>
+    </div>
+
+    <div>
+        <button class="boton-copiar" onclick="copiar()">Copiar</button>
+    </div>
+
+    <div class="contenedor-resultado">
+        <textarea name="textarea2" id="resultado" cols="15" rows="5" required placeholder="Ingresa el texto que deseeas encriptar o desencriptar"></textarea>
+    </div>
+
+</main>
+
+    <footer>
+        <p class="copyright">&copy; Copyright by Eduardo Antunez - 2023 - Para Challenge Alura LATAM ONE Oracle Next Education. </p>
+        
+        <a title="Linkedin" href="https://www.linkedin.com/in/jose-eduardo-rodriguez-antunez/"><img class="linkedin" src="imagenes-proyecto/linkedin.png" alt="Linkedin"></a>
+        <a title="Github" href="https://github.com/MiumaVT"><img class="github" src="imagenes-proyecto/github.png" alt="Github"></a>
+        
+    </footer>
+
+</body>
+
+</html>
